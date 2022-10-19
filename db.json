@@ -1,0 +1,21 @@
+[
+    {
+    "wrappingPaper": [{"color": "",
+                       "pattern": ""
+                        }],
+    "boxes": [{"small": "",
+               "medium": "",
+               "large": ""}
+             ],
+     "bows" : [{"fabric": "",
+                 "vinyl": ""}
+              ],
+     "accesories" :[{"card" : "",
+                    "giftTag": "",
+                    "stuffing": "",
+                    "finishers": ""
+
+                     }],
+     "Quantity": ""
+    }
+] 
