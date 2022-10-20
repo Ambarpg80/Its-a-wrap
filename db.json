@@ -1,21 +1,14 @@
-[
+{ 
+    "services":[
     {
-    "wrappingPaper": [{"color": "",
-                       "pattern": ""
-                        }],
-    "boxes": [{"small": "",
-               "medium": "",
-               "large": ""}
+    "wrappingPaper": "$5.00",                  
+    "boxes": [{"x-small": "$5.00",
+               "small": "$7.00",
+               "medium": "$10.00",
+               "large": "$15.00"}
              ],
-     "bows" : [{"fabric": "",
-                 "vinyl": ""}
-              ],
-     "accesories" :[{"card" : "",
-                    "giftTag": "",
-                    "stuffing": "",
-                    "finishers": ""
-
-                     }],
-     "Quantity": ""
+    "accesories" : "$5.00",
+     "quantity": ""
     }
-] 
+  ]
+}
