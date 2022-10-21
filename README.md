@@ -8,5 +8,19 @@ As a customer, I should be able to perform the following actions :
 
 
 
-     Images are from:
-     1- Pexels.com - Miguel A. Padrinan , blurred lights.
+All images are from Pexels.com and are from the following contributors:
+    1- Pexels.com - Miguel A. Padrinan , blurred lights.
+    2- Kampus Production- Baby Shower
+    3- Photomix Company, Anniversary dinner
+    4- Agung Pandit Wiguna , wedding reception
+    5- George Dolgikh, Birthday
+    6- Monstera, Thank You gift
+    7- Roman Odintsov, Holiday presents
+    8- Rodnae Productions, Graduation & Corporate
+
+
+Fonts:
+    Google Fonts - Hurricane designed by Robert Leuschke.
+
+     Resources: 
+     Help with picking a color scheme : mycolor.space 
