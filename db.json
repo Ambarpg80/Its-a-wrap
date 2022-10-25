@@ -2,7 +2,7 @@
   "services": [
 { 
   "name": " Anniversaries ",
-  "description": "Let that special someone know how much you appreciate their companionship",
+  "description": "Let that special someone know how much you appreciate them.",
   "image_url": "photos/pexels-photomix-company-95949.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -10,12 +10,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                    ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   {
   "name": " Birthdays ",
-  "description": "Every year is a new Adventure",
+  "description": "Every year is a new Adventure!",
   "image_url": "photos/pexels-george-dolgikh-2072181.jpg" ,
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -23,7 +23,7 @@
              "medium": "$10.00",
              "large": "$15.00"}
                    ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   { 
@@ -36,12 +36,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                    ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   { 
   "name": " Graduation ",
-  "description": "Celebrating the milestones of the bigger journey ",
+  "description": "Celebrating the milestones of the bigger journey. ",
   "image_url": "photos/pexels-rodnae-productions-7713412.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -49,12 +49,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                    ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   }, 
   { 
-  "name": " We've got <br> You Covered ",
-  "description": "Pricing",
+  "name": " We've got <br> You Covered. ",
+  "description": "Pick-up & <br> Delivery Available <br> Or We can come to you.",
   "image_url": "photos/pexels-pixabay-269887.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -62,12 +62,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                    ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   { 
   "name": " Holidays ",
-  "description":"Any holiday you celbrate, we celebrate",
+  "description":"Any holiday you celbrate, we celebrate.",
   "image_url": "photos/pexels-roman-odintsov-6334694.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -75,12 +75,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                  ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   {
   "name": " Just Because ",
-  "description":"You don't need a holiday to show someone you care",
+  "description":"You don't need a holiday to show someone you care.",
   "image_url": "photos/pexels-monstera-5876688.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -88,12 +88,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                  ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   {
-  "name": " Showers & Arrivals ",
-  "description":"For the Never-ending Bundle of Joy that is Parenthood",
+  "name": " Showers & <br> Arrivals ",
+  "description":"For the Never-ending Bundle of Joy that is Parenthood.",
   "image_url": "photos/pexels-kampus-production-7802432.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -101,12 +101,12 @@
              "medium": "$10.00",
              "large": "$15.00"}
                  ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   },
   { 
   "name": " Weddings ",
-  "description":"Say Welcome to the Family",
+  "description":"Say Welcome to the Family.",
   "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg",
   "wrappingPaper": "$5.00",                  
   "boxes": [{"x-small": "$5.00",
@@ -114,7 +114,7 @@
              "medium": "$10.00",
              "large": "$15.00"}
                  ],
-  "accesories" : "$5.00",
+  "accessories" : "$5.00",
   "quantity": ""
   }
  ]
