@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hurricane&display=swap');
 
 
-#afternav{
+#welcome{
     background-color:#f8eaf5;
    
 }
@@ -10,8 +10,12 @@
     width: 100%;
     height: 400px;  
 } 
-
-#top {
+#logo img{
+    position: absolute;  
+    width: 100px;
+    height:100px;
+}
+#top1 {
     font-family: 'Hurricane', cursive;
     color:#920f27;
     font-size: 80px;
@@ -21,47 +25,88 @@
     text-align: right;
    
 }
+#top2 {
+    font-family: 'Hurricane', cursive;
+    color:#920f27;
+    font-size: 80px;
+    position: absolute;  
+    top: 25%;
+    left: 50%;
+    text-align: right;
+   
+}
  
 
 #main-container{
     background-color:  #BA0000;
     color: goldenrod;
-    font-family: 'Hurricane';
+    font-family: 'Dancing Script', cursive;
     font-size: 40px;
     text-align: center;
 }
+ /**/
+.container{
+    background-color: rgb(247, 237, 224); 
+    border: 0.5px #ebb987 solid;
+    padding: 10px;
+   
+
+}
 
 .card{
-    background-color: rgb(247, 237, 224); 
-    font-family: 'Hurricane', cursive;
+    font-family: 'Dancing Script', cursive;
     color: #443d29;
     font-size: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     border: 0.5px #ebb987 solid;
+    
 }/**/
 
-
-
-.changemsg{
-        border: 0.5px #ebb987 solid;
-        padding: 10px;
-        margin: 10px;
-        width: fit-content;
+div.cells{
+    position: relative;
+    padding: 10px;
+    margin: 50px;
+    width: fit-content;
+    height:300px;
+    width: 300px;
 }
+.changemsg{  
+    display: block;
+}/* */
+
+ 
+
+div.changemsg:hover{
+    background-color: #BA0000;
     
- div span {
-    /**/position: absolute; 
-    padding: 5px ;
-    margin-top: 75px;
-    margin-left: 50px;
+      
+}  
+.secondmessage{
+    position: absolute;
+    padding: 15px ;
+    margin-top: 45px;
+    margin-left: 5px;
+    color: #b1aa82;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    background: rgb(245 245 245 / 0%)
+    
+} /*  */ 
+ 
+div span {
+    position: absolute;
+    padding: 15px ;
+    margin-top: 100px;
+    margin-left: 75px;
     font-weight: 700;
-    background: rgb(245 245 245 / 65%);
-   }/**/
+    background: rgb(245 245 245 / 55%);
+}/**/
 
 
 footer{
     background-color:#88726C;
     color: #f3edcd;
+    padding: 10px;
 }
