@@ -2,7 +2,7 @@
 
 
 #welcome{
-    background-color:#f8eaf5;
+    background-color: #ff7f50;
    
 }
 
@@ -37,9 +37,9 @@
 }
  
 
-#main-container{
-    background-color:  #BA0000;
-    color: goldenrod;
+#last-container{
+    background-color:  #ff7f50;
+    color: rgb(247, 205, 98);
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     text-align: center;
@@ -55,7 +55,7 @@
 
 .card{
     font-family: 'Dancing Script', cursive;
-    color: #443d29;
+    color: #5b533e;
     font-size: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -79,7 +79,7 @@ div.cells{
  
 
 div.changemsg:hover{
-    background-color: #BA0000;
+    background-color: #ff7f50;
     
       
 }  
@@ -88,7 +88,7 @@ div.changemsg:hover{
     padding: 15px ;
     margin-top: 45px;
     margin-left: 5px;
-    color: #b1aa82;
+    color: #6b6454;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
     background: rgb(245 245 245 / 0%)
@@ -102,11 +102,29 @@ div span {
     margin-left: 75px;
     font-weight: 700;
     background: rgb(245 245 245 / 55%);
-}/**/
+}
+/* */
+#name-box {  
+    width: 200px;
+}
 
+
+
+#text-box{
+    width: 400px;
+}
+
+input {
+    margin-bottom: 5px;
+
+}
 
 footer{
-    background-color:#88726C;
-    color: #f3edcd;
+    background-color:#05012d;
+    color: #ff7f50;
     padding: 10px;
+ } 
+   /*  */
+footer div{
+    float: left;
 }
