@@ -1,123 +1,86 @@
-{ 
+{
   "services": [
-{ 
-  "name": " Anniversaries ",
-  "description": "Let that special someone know how much you appreciate them.",
-  "image_url": "photos/pexels-photomix-company-95949.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                   ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  {
-  "name": " Birthdays ",
-  "description": "Every year is a new Adventure!",
-  "image_url": "photos/pexels-george-dolgikh-2072181.jpg" ,
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                   ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  { 
-  "name": " Corporate  ",
-  "description": "Let them know you appreciate their contributions.",
-  "image_url": "photos/pexels-rodnae-productions-7580846.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                   ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  { 
-  "name": " Graduation ",
-  "description": "Celebrating the milestones of the bigger journey. ",
-  "image_url": "photos/pexels-rodnae-productions-7713412.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                   ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  }, 
-  { 
-  "name": " We've got <br> You Covered. ",
-  "description": "Pick-up & <br> Delivery Available <br> Or We can come to you.",
-  "image_url": "photos/pexels-pixabay-269887.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                   ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  { 
-  "name": " Holidays ",
-  "description":"Any holiday you celbrate, we celebrate.",
-  "image_url": "photos/pexels-roman-odintsov-6334694.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                 ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  {
-  "name": " Just Because ",
-  "description":"You don't need a holiday to show someone you care.",
-  "image_url": "photos/pexels-monstera-5876688.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                 ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  {
-  "name": " Showers & <br> Arrivals ",
-  "description":"For the Never-ending Bundle of Joy that is Parenthood.",
-  "image_url": "photos/pexels-kampus-production-7802432.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                 ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  },
-  { 
-  "name": " Weddings ",
-  "description":"Say Welcome to the Family.",
-  "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg",
-  "wrappingPaper": "$5.00",                  
-  "boxes": [{"x-small": "$5.00",
-             "small": "$7.00",
-             "medium": "$10.00",
-             "large": "$15.00"}
-                 ],
-  "accessories" : "$5.00",
-  "quantity": ""
-  }
- ]
+    {
+      "id": 1,
+      "occasion": " Anniversaries ",
+      "description": "Let that special someone know how much you appreciate them.",
+      "image_url": "photos/pexels-photomix-company-95949.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 2,
+      "occasion": " Birthdays ",
+      "description": "Every year is a new Adventure!",
+      "image_url": "photos/pexels-george-dolgikh-2072181.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 3,
+      "occasion": " Corporate  ",
+      "description": "Let them know you appreciate their contributions.",
+      "image_url": "photos/pexels-rodnae-productions-7580846.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 4,
+      "occasion": " Graduation ",
+      "description": "Celebrating the milestones of the bigger journey. ",
+      "image_url": "photos/pexels-rodnae-productions-7713412.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 5,
+      "occasion": " We've got <br> You Covered. ",
+      "description": "Pick-up & <br> Delivery Available <br> Or We can come to you.",
+      "image_url": "photos/pexels-pixabay-269887.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 6,
+      "occasion": " Holidays ",
+      "description": "Any holiday you celebrate, we celebrate.",
+      "image_url": "photos/pexels-roman-odintsov-6334694.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 7,
+      "occasion": " Just Because ",
+      "description": "You don't need a holiday to show someone you care.",
+      "image_url": "photos/pexels-monstera-5876688.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 8,
+      "occasion": " Showers & <br> Arrivals ",
+      "description": "For the Never-ending Bundle of Joy that is Parenthood.",
+      "image_url": "photos/pexels-kampus-production-7802432.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "id": 9,
+      "occasion": " Weddings ",
+      "description": "Say Welcome to the Family.",
+      "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg",
+      "name": "",
+      "comment": ""
+    },
+    {
+      "name": "La Chula",
+      "comment": "Test message from la chula",
+      "id": 10
+    },
+    {
+      "name": "Stan Lee",
+      "comment": "Had a party for employees and the gifts looked Amazing!",
+      "id": 11
+    }
+  ]
 }
-  
-  
