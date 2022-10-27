@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded',
+fetch("http://localhost:3000/services")
+.then((response) => response.json())
+.then((services)=> {showMsg(services); })
+    
+)
 /* ===================================== CARDS DISPLAY  ======================================== */
 const cards =  document.querySelector('.card');
 
@@ -7,18 +13,25 @@ function showMsg(services){
         div.className = "cells","changemsg";
         div.innerHTML = `<span>${eachSvc.occasion} </span> 
                         <img src=${eachSvc.image_url}>
-                        <style> .card img{
+                        <style> 
+                        .card img{
                             width : 300px; 
                             height :300px;
                             border: 0.5px #ebb987 solid;
-                        }</style>`  
+                            box-shadow: 5px  5px rgba(91, 83, 62, 0.20);
+                        }
+                        </style>`  
         
-        div.addEventListener("mouseover",(e)=>{
-            e.target.classList.toggle("changemsg") 
+        div.addEventListener("mouseenter",()=>{
+            div.classList.toggle("changemsg") 
             div.innerHTML = `<span class= "secondmessage"> ${eachSvc.description} </span>
-                            <style> img {display : block};  </style> `;  
+                            <style> 
+                            img {display : block}; 
+                            opacity: 0;
+                            transition: 1s ease; 
+                             </style> `;  
          })
-         div.addEventListener("mouseout",()=>{
+         div.addEventListener("mouseleave",()=>{
             div.innerHTML = `<span>${eachSvc.occasion} </span> 
                         <img src=${eachSvc.image_url}>
                         <style> img{
@@ -34,17 +47,16 @@ function showMsg(services){
 
 /* ===================================== HIDE & SHOW AT BOTTOM  ======================================== */
     
-const last = document.getElementById("last-container");
+const price = document.getElementById("price-container");
 const inDiv= document.createElement('div');
 inDiv.className = "hidden";
-last.append(inDiv);
-last.addEventListener("click", ()=>{
-    //const inDiv= document.createElement('div');
+price.append(inDiv);
+price.addEventListener("click", ()=>{
     inDiv.innerHTML = `<style> .hidden{
                                 background: rgb(245 245 245 / 25%);
-                                 color: #443d29; 
+                                color: #443d29; 
                                 font-size: 30px;
-                                padding: 5px;}</style>
+                                padding: 5px; }</style>
                         <p>Wrapping Paper: $5.00 <br>
                             Boxes & Bags<br>
                             X-Small: $5.00 <br>
@@ -52,7 +64,6 @@ last.addEventListener("click", ()=>{
                             Medium: $10.00 <br>
                             Large : $15.00 <br>
                             Accessories : $5.00 <br>`
-    //last.append(inDiv);
     if (inDiv.style.display === "none") {
         inDiv.style.display = "block";
     } else {
@@ -61,13 +72,15 @@ last.addEventListener("click", ()=>{
 
 })
 
-/* ===================================== footer ======================================== */
+/* ===================================== FOOTER ======================================== */
 const form = document.querySelector('form')
 let   names = document.getElementById('name-box')
 let comment = document.getElementById('text-box')
 
+/* ================== SUBMIT A COMMENT ================== */
+
 function submitComment(name, comment){
-    fetch(`http://localhost:3000/comments`, {
+    fetch(`http://localhost:4000/comments`, {
         method : "POST",
         headers:{
         "Content-Type": "application/json",
@@ -81,24 +94,20 @@ function submitComment(name, comment){
     li.innerHTML = `${name}  : ${comment}`;
     document.getElementById('comments').append(li)
 }
-function submittedComments(comments){
+
+/* ================= SUBMITTED COMMENTS ==================== */
+fetch("http://localhost:4000/comments")
+    .then(res=> res.json())
+    .then(comments => {
     for (let comment of comments){
+      //  console.log(comment);
     const li = document.createElement('li')
-    li.innerHTML = `${names}  : ${comment}`;
+    li.innerHTML = `${comment.name}  : ${comment.comment}`;
     document.getElementById('comments').append(li)
     }
-}
-
+})
 
 form.addEventListener("submit", (e)=>{
     e.preventDefault(),
     submitComment(names.value, comment.value)
 })
-
-document.addEventListener('DOMContentLoaded',
-fetch("http://localhost:3000/services","http://localhost:3000/comments")
-.then((response) => response.json())
-.then((services)=> {showMsg(services); 
-        submittedComments(comments);
-    })
-)
