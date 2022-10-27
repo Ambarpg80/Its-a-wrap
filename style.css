@@ -1,51 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hurricane&display=swap');
 
 
-#welcome{
+#welcome {
     background-color: #ff7f50;
+    
    
 }
 
 #lights { 
     width: 100%;
-    height: 400px;  
+    height: 400px;
+     
 } 
-#logo img{
-    position: absolute;  
-    width: 100px;
-    height:100px;
+#logo  {
+    position: absolute; 
+    margin-left: 40%;
+    width: 300px;
+    height:150px; /**/
+    border-style: none;
 }
 #top1 {
     font-family: 'Hurricane', cursive;
-    color:#920f27;
+    color:#d20c30;
     font-size: 80px;
     position: absolute;  
-    top: 5%;
+    top: 15%;
     left: 20%;
-    text-align: right;
+    text-align: left;
+    text-shadow: 2px 2px 5px rgba(55, 50, 38, 0.815);
    
 }
 #top2 {
     font-family: 'Hurricane', cursive;
-    color:#920f27;
+    color:#d20c30;
     font-size: 80px;
     position: absolute;  
-    top: 25%;
+    top: 30%;
     left: 50%;
     text-align: right;
-   
+    text-shadow: 2px 2px 5px rgba(55, 50, 38, 0.815);
 }
  
+ /* ========================= CARDS  ========================= */
 
-#last-container{
-    background-color:  #ff7f50;
-    color: rgb(247, 205, 98);
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    text-align: center;
-}
- /**/
-.container{
+.container {
     background-color: rgb(247, 237, 224); 
     border: 0.5px #ebb987 solid;
     padding: 10px;
@@ -53,37 +51,44 @@
 
 }
 
-.card{
+.card {
     font-family: 'Dancing Script', cursive;
     color: #5b533e;
     font-size: 30px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 0.5px #ebb987 solid;
-    
-}/**/
+    border: 0.5px #05012d solid;
+   /* #ebb987*/
+}
 
 div.cells{
     position: relative;
     padding: 10px;
-    margin: 50px;
+    margin: auto;
     width: fit-content;
     height:300px;
     width: 300px;
+    
 }
-.changemsg{  
+
+
+/* ====================== CARDS MESSAGE CHANGE ON MOUSEOVER ========================= */
+.changemsg {  
     display: block;
 }/* */
 
  
 
-div.changemsg:hover{
+div.changemsg:hover {
     background-color: #ff7f50;
-    
+    opacity: 1;
+  transition: 1s ease;
+  
       
 }  
-.secondmessage{
+.secondmessage {
     position: absolute;
     padding: 15px ;
     margin-top: 45px;
@@ -91,11 +96,21 @@ div.changemsg:hover{
     color: #6b6454;
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
-    background: rgb(245 245 245 / 0%)
+    background: rgb(245 245 245 / 0%);
     
-} /*  */ 
- 
-div span {
+    
+    
+}   
+ /* ====================== PRICING  ========================= */
+#price-container {
+    background-color:  #ff7f50;
+    color: rgb(247, 205, 98);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+/*  */
+div span {  
     position: absolute;
     padding: 15px ;
     margin-top: 100px;
@@ -103,28 +118,33 @@ div span {
     font-weight: 700;
     background: rgb(245 245 245 / 55%);
 }
-/* */
+
+
+
+/* ====================== FOOTER DIV ========================= */
+
+
 #name-box {  
     width: 200px;
 }
 
-
-
-#text-box{
+#text-box {
     width: 400px;
 }
 
 input {
     margin-bottom: 5px;
-
 }
 
-footer{
+section {
     background-color:#05012d;
     color: #ff7f50;
     padding: 10px;
+    display: flex;
  } 
-   /*  */
-footer div{
-    float: left;
+ 
+ul {
+list-style: none;
 }
+  
+
