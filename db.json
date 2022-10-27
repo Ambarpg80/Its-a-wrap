@@ -11,7 +11,7 @@
     {
       "id": 2,
       "occasion": " Birthdays ",
-      "description": "Every year is a new Adventure!",
+      "description": "Every year is a new Adventure! Same day service available.",
       "image_url": "photos/pexels-george-dolgikh-2072181.jpg",
       "name": "",
       "comment": ""
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "occasion": " Corporate  ",
-      "description": "Let them know you appreciate their contributions.",
+      "description": "Let them know you <br>appreciate their <br> contributions. Our Assistants <br>can come to you.",
       "image_url": "photos/pexels-rodnae-productions-7580846.jpg",
       "name": "",
       "comment": ""
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "occasion": " Holidays ",
-      "description": "Any holiday you celebrate, we celebrate.",
+      "description": "Pick-up or Drop off.<br> Take a load off <br>from the shopping and <br>leave the wrapping to us.",
       "image_url": "photos/pexels-roman-odintsov-6334694.jpg",
       "name": "",
       "comment": ""
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "occasion": " Showers & <br> Arrivals ",
-      "description": "For the Never-ending Bundle of Joy that is Parenthood.",
+      "description": "Wow the parents to be and your guests with the party favors.",
       "image_url": "photos/pexels-kampus-production-7802432.jpg",
       "name": "",
       "comment": ""
@@ -71,16 +71,6 @@
       "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg",
       "name": "",
       "comment": ""
-    },
-    {
-      "name": "La Chula",
-      "comment": "Test message from la chula",
-      "id": 10
-    },
-    {
-      "name": "Stan Lee",
-      "comment": "Had a party for employees and the gifts looked Amazing!",
-      "id": 11
     }
   ]
 }

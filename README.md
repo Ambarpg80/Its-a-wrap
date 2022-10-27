@@ -24,3 +24,5 @@ Fonts:
 
      Resources: 
      Help with picking a color scheme : mycolor.space 
+
+Logo Design was done by me using canva.com
