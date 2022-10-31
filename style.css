@@ -45,7 +45,7 @@
 
 .container {
     background-color: rgb(247, 237, 224); 
-    border: 0.5px #ebb987 solid;
+    border: 5px #ebb987 solid;
     padding: 10px;
    
 
@@ -55,11 +55,12 @@
     font-family: 'Dancing Script', cursive;
     color: #5b533e;
     font-size: 30px;
+    padding:10px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    border: 0.5px #05012d solid;
+    border: 1.5px #05012d solid;
    /* #ebb987*/
 }
 

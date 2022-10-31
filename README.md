@@ -1,5 +1,7 @@
 The premise of this project is to produce a single page web application. I have decided to create a page that functions as a business page for a business that is a gift wrapping service. 
 
+JSON Server was used for information being displayed on the page.
+
 As a customer, I should be able to perform the following actions :
     1- Mouseover the different tiles and get a description of a different type of services available.
     2- The middle tile will offer text for more information and when clicked it should reveal a form that the potential customer can fillout an order on.
@@ -8,8 +10,8 @@ As a customer, I should be able to perform the following actions :
 
 
 
-All images are from Pexels.com and are from the following contributors:
-    1- Pexels.com - Miguel A. Padrinan , blurred lights.
+All images are from https://www.pexels.com/ and are from the following contributors:
+    1- Miguel A. Padrinan , blurred lights.
     2- Kampus Production- Baby Shower
     3- Photomix Company, Anniversary dinner
     4- Agung Pandit Wiguna , wedding reception
@@ -25,4 +27,4 @@ Fonts:
      Resources: 
      Help with picking a color scheme : mycolor.space 
 
-Logo Design was done by me using canva.com
+Logo Design was done by me using Affinity Designer.

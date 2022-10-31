@@ -17,7 +17,7 @@ function showMsg(services){
                         .card img{
                             width : 300px; 
                             height :300px;
-                            border: 0.5px #ebb987 solid;
+                            border: 1px #ebb987 solid;
                             box-shadow: 5px  5px rgba(91, 83, 62, 0.20);
                         }
                         </style>`  
@@ -37,7 +37,7 @@ function showMsg(services){
                         <style> img{
                             width : 300px; 
                             height :300px;
-                            border: 0.5px #ebb987 solid;
+                            border: 1px #ebb987 solid;
                         }</style>`      
          })
         cards.append(div);

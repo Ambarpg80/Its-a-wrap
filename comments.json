@@ -11,9 +11,14 @@
       "id": 2
     },
     {
-      "name": "Steve Rogers",
-      "comment": "Great Service!",
+      "name": "Ginny Weasley",
+      "comment": "They did a great job handling the different set of orders. Would definitely use them again. ",
       "id": 3
+    },
+    {
+      "name": "N. Romanov",
+      "comment": "Great for kids events!",
+      "id": 4
     }
   ]
 }
