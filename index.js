@@ -8,11 +8,11 @@ fetch("http://localhost:3000/services")
 const cards =  document.querySelector('.card');
 
 function showMsg(services){
-    for (let eachSvc of services){
+    services.forEach(svc=>{
         let div = document.createElement('div');
         div.className = "cells","changemsg";
-        div.innerHTML = `<span>${eachSvc.occasion} </span> 
-                        <img src=${eachSvc.image_url}>
+        div.innerHTML = `<span>${svc.occasion} </span> 
+                        <img src=${svc.image_url}>
                         <style> 
                         .card img{
                             width : 300px; 
@@ -24,7 +24,7 @@ function showMsg(services){
         
         div.addEventListener("mouseenter",()=>{
             div.classList.toggle("changemsg") 
-            div.innerHTML = `<span class= "secondmessage"> ${eachSvc.description} </span>
+            div.innerHTML = `<span class= "secondmessage"> ${svc.description} </span>
                             <style> 
                             img {display : block}; 
                             opacity: 0;
@@ -32,8 +32,8 @@ function showMsg(services){
                              </style> `;  
          })
          div.addEventListener("mouseleave",()=>{
-            div.innerHTML = `<span>${eachSvc.occasion} </span> 
-                        <img src=${eachSvc.image_url}>
+            div.innerHTML = `<span>${svc.occasion} </span> 
+                        <img src=${svc.image_url}>
                         <style> img{
                             width : 300px; 
                             height :300px;
@@ -42,7 +42,7 @@ function showMsg(services){
          })
         cards.append(div);
         
-    }
+    })
 }
 
 /* ===================================== HIDE & SHOW AT BOTTOM  ======================================== */
