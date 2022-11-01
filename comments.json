@@ -19,6 +19,16 @@
       "name": "N. Romanov",
       "comment": "Great for kids events!",
       "id": 4
+    },
+    {
+      "name": "Woody",
+      "comment": "Happy with the service provided for Wedding. ",
+      "id": 5
+    },
+    {
+      "name": "Buzz",
+      "comment": "Great for events!",
+      "id": 6
     }
   ]
 }
