@@ -29,4 +29,7 @@ Fonts:
 
 Logo Design was done by me using Affinity Designer.
 
-JSON Server was used instead of an API. The db.json runs on port 3000 by default. However, I found myself needing to add a second .json file and decided to have JSON server watch it on port 4000.  
+JSON Server was used instead of an API. The db.json runs on port 3000 by default. However, I found myself needing to add a second .json file and decided to have JSON server watch it on port 4000. 
+
+Demo/walkthrough:
+https://youtu.be/bhNpbwWgHhc
