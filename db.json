@@ -4,31 +4,31 @@
       "id": 1,
       "occasion": " Anniversaries ",
       "description": "Let that special someone know how much you appreciate them.",
-      "image_url": "photos/pexels-photomix-company-95949.jpg",
+      "image_url": "photos/pexels-photomix-company-95949.jpg"
     },
     {
       "id": 2,
       "occasion": " Birthdays ",
       "description": "Every year is a new Adventure! Same day service available.",
-      "image_url": "photos/pexels-george-dolgikh-2072181.jpg",
+      "image_url": "photos/pexels-george-dolgikh-2072181.jpg"
     },
     {
       "id": 3,
       "occasion": " Corporate  ",
       "description": "Let them know you <br>appreciate their <br> contributions. Our Assistants <br>can come to you.",
-      "image_url": "photos/pexels-rodnae-productions-7580846.jpg",
+      "image_url": "photos/pexels-rodnae-productions-7580846.jpg"
     },
     {
       "id": 4,
       "occasion": " Graduation ",
       "description": "Celebrating the milestones of the bigger journey. ",
-      "image_url": "photos/pexels-rodnae-productions-7713412.jpg",
+      "image_url": "photos/pexels-rodnae-productions-7713412.jpg"
     },
     {
       "id": 5,
       "occasion": " We've got <br> You Covered. ",
       "description": "Pick-up & <br> Delivery Available <br> Or We can come to you.",
-      "image_url": "photos/pexels-pixabay-269887.jpg",
+      "image_url": "photos/pexels-pixabay-269887.jpg"
     },
     {
       "id": 6,
@@ -52,8 +52,7 @@
       "id": 9,
       "occasion": " Weddings ",
       "description": "Say Welcome to the Family.",
-      "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg",
-      
+      "image_url": "photos/pexels-agung-pandit-wiguna-2788488.jpg"
     }
   ]
 }
